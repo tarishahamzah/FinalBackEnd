@@ -1,4 +1,4 @@
-.App {
+.text {
   text-align: center;
 }
 
@@ -12,6 +12,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.container-center{
+  margin: auto;
+  width: 60%;
+  padding: 7em;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+
+.main-footer{
+  color: white;
+  background-color:#0D6EFD;
+  padding-top: 1em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;} 
 
 .App-header {
   background-color: #282c34;
